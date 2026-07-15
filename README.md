@@ -18,12 +18,13 @@ A comparative study of convolutional neural network architectures implemented fr
 .
 ├── data/
 │   └── caltech-256.zip
-├── custom_cnn/
-│   ├── train_custom_cnn.ipynb
-│   └── gradcam_custom.ipynb
+├── Base_CNN/
+│   ├── CSOC_Week_3_Task_0(1).ipynb
+│   └── CSOC_Week_3_Task_0_From_50_to_70_Epochs.zip
+|   └── Grad_Cam_Analysis_Task_0_Week_3.zip
 ├── resnet18/
-│   ├── train_resnet18.ipynb
-│   └── gradcam_resnet18.ipynb
+│   ├── CSOC_Week_3_Task_1_Overfitting.ipynb
+│   └── CSOC_Week_3_Task_1_with_Grad_Cam.ipynb
 └── README.md
 ```
 
