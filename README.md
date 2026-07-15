@@ -22,7 +22,7 @@ A comparative study of convolutional neural network architectures implemented fr
 │   ├── CSOC_Week_3_Task_0(1).ipynb
 │   └── CSOC_Week_3_Task_0_From_50_to_70_Epochs.zip
 |   └── Grad_Cam_Analysis_Task_0_Week_3.zip
-├── resnet18/
+├── ResNet-18/
 │   ├── CSOC_Week_3_Task_1_Overfitting.ipynb
 │   └── CSOC_Week_3_Task_1_with_Grad_Cam.ipynb
 └── README.md
@@ -47,7 +47,7 @@ A comparative study of convolutional neural network architectures implemented fr
 - Identity Skip Connections
 - Batch Normalization
 - Global Average Pooling
-- Fully Connected Classifier
+- Fully Connected Layers
 
 ## Grad-CAM
 
@@ -75,7 +75,7 @@ The models are compared based on:
 | ResNet-18 | 50.65% |
 
 ### Key Observations
-- ResNet-18 initially was overfitting in training which was handled with inclusion of data augmentation
+- ResNet-18 initially was overfitting in training which was handled with introduction of data augmentation
 - Residual connections improved optimization stability and feature reuse.
 - Training time with ResNet-18 (20 epochs) was significantly lower compared to base CNN (70 epochs) architecture while achieving nearly the same accuracy.
 
