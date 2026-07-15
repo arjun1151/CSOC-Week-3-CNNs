@@ -28,15 +28,6 @@ A comparative study of convolutional neural network architectures implemented fr
 └── README.md
 ```
 
-## Dataset
-
-The project uses the **Caltech-256 Object Category Dataset**, consisting of 256 object categories and one clutter class.
-
-In the base CNN implementation, images are:
-
-- Resized to **224 × 224**
-- Converted to tensors
-- Normalized using ImageNet statistics
 
 ## Models Implemented
 
